@@ -1,5 +1,5 @@
 import PQueue from "p-queue";
-import { sendTemplateMessage } from "../services/whatsappClient.js";
+import { sendTemplateMessage } from "../services/whatsappService.js";
 import { whatsappConfig } from "../config/whatsappConfig.js";
 
 // Job store (in-memory for now)

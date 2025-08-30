@@ -1,4 +1,4 @@
-import { createBroadcastJob, getJobStatus } from "../queue/broadcastQueue.js";
+import { createBroadcastJob, getJobStatus } from "../jobs/broadcastQueue.js";
 
 export async function broadcastMessage(req, res) {
   const { numbers, message } = req.body;
